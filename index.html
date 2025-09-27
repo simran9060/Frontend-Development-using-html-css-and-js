@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trip Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌍 Trip Planner</h1>
+    <p>Explore destinations, view photos, and check the weather</p>
+  </header>
+
+  <main>
+    <section class="search-box">
+      <input type="text" id="cityInput" placeholder="Enter a city...">
+      <button onclick="searchDestination()">Search</button>
+    </section>
+
+    <section id="destination-info">
+      <h2>Destination Info</h2>
+      <p id="cityName">Search for a city to see details.</p>
+    </section>
+
+    <section id="photos">
+      <h2>Photos</h2>
+      <div id="photo-gallery"></div>
+    </section>
+
+    <section id="weather">
+      <h2>Weather</h2>
+      <div id="weather-data"></div>
+    </section>
+  </main>
+
+  
+</body>
+</html>
